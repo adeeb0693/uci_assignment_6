@@ -1,0 +1,184 @@
+html { font-size: calc(1em + 1vw) }
+
+body {
+  margin: 0;
+  background-color: #618EA6;
+}
+
+nav {
+  background-color: #F4938C;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFF0;
+  padding: 1vh;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 2vw;
+  color: #FFFFF0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  padding: 1vw;
+}
+
+@media (max-width: 1200px) {
+  body {
+    width: 100vw;
+  }
+}
+
+.quote {
+  font-family:'Montserrat', sans-serif;
+  color: #FFFFF0;
+  margin-top: 0;
+  padding-bottom: 5.5vw;
+  font-size: 1vw;
+}
+
+.first_div {
+  background-image: url(https://images.wallpapersden.com/image/download/sunrise-landscape_bGVtZW2UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: #FFFFF0;
+  text-align: center;
+  font-family:'Sacramento', cursive;
+  font-size: 8vw;
+  margin-bottom: 0;
+}
+
+.news_1 {
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+margin: auto;
+align-items: center;
+margin-bottom: 50px;
+}
+
+.header_2 {
+  color: #FFFFF0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+  margin-top: 50px;
+}
+
+.marshall_img {
+  width: 25%;
+  height: auto;
+}
+
+.news_1_title {
+text-decoration: underline;
+font-family: 'Montserrat', sans-serif;
+font-size: 1vw;
+}
+
+.news_2 {
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+margin: auto;
+align-items: center;
+margin-bottom: 100px;
+}
+
+.news_2_title {
+text-decoration: underline;
+font-family: 'Montserrat', sans-serif;
+font-size: 1vw;
+}
+
+.reflections_img {
+  width: 25%;
+  height: auto;
+}
+
+.first_set {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #F4938C;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-size: 1vw;
+  overflow: hidden;
+}
+
+.random_selction{
+  height: 600px;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.veiw{
+  width: 50%;
+  height: auto;
+  box-shadow: 0px 0px 36px -22px #2B2D42;
+  float: left;
+  margin-bottom: 33px;
+}
+
+#image_shower{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#button {
+  width: 15vw;
+  height: 13vh;
+  border-radius: 25%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: underline;
+  background-color: #F4938C;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFF0;
+}
+
+#button:hover {
+  background-color: #f7685e
+}

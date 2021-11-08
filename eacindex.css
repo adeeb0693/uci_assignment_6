@@ -1,0 +1,245 @@
+html { font-size: calc(1em + 1vw); }
+
+body {
+  margin: 0;
+  background-color: #618EA6;
+}
+
+nav {
+  background-color: #F4938C;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFF0;
+  padding: 1vh;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 2vw;
+  color: #FFFFF0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  padding: 1vw;
+}
+
+@media (max-width: 1200px) {
+  body {
+    width: 100vw;
+  }
+
+  nav {
+    width: 100vw;
+  }
+
+  footer {
+    width: 106vw;
+  }
+
+  .first_div {
+    width: 106vw;
+  }
+}
+
+.quote {
+  font-family:'Montserrat', sans-serif;
+  color: #FFFFF0;
+  margin-top: 0;
+  padding-bottom: 7vw;
+  font-size: 1vw;
+}
+
+.first_div {
+  background-image: url(https://images.wallpapersden.com/image/download/sunrise-landscape_bGVtZW2UmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: #FFFFF0;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 8vw;
+  margin-bottom: 0;
+}
+
+//Evelyns Styling
+
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.title{
+  flex-basis: 100%;
+  text-align: center;
+  margin: 50px auto 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.portfolio {
+    padding: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+}
+
+.portfolio h2 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 50px auto 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.card {
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+.card .content {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  bottom: -100px;
+  transition: all 0.7s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*padding: 20px;*/
+  box-sizing: border-box;
+  min-height: 100px;
+  background: #111;
+}
+.card .image {
+  z-index: 1;
+  height: 100%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  transform: scale(1.2);
+}
+
+.card:hover .content {
+  bottom: 0px;
+  color: #fff;
+}
+
+.card:hover .image img {
+  transform: scale(1);
+}
+
+.card .content span:first-child {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.card .content span:last-child {
+  font-size: 14px;
+  color: #F4938C;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+  .card {
+  width: 50%;
+  }
+  .card .content {
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+  width: 100%;
+  }
+}
+
+#button {
+    padding:20px;
+  background-color: #FCB783;
+  color: #FFFFF0;
+    font-weight:bold;
+  border: 2px solid #FCB783;
+    border-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+#button:hover {
+  background-color: #FFF386;
+  color: #C0C0C0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+button {
+  animation: shake 1s;
+  animation-iteration-count: 5;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+footer {
+  text-align: center;
+  background-color: #F4938C;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-size: 1vw;
+  overflow: hidden;
+}
